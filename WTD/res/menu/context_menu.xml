@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- CONTEXT MENU -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    	<!-- EDIT TASK -->
+    	<item
+        android:id="@+id/context_edit"
+        android:title="@string/action_edit"
+        />
+    	
+    	<!-- REMOVE TASK -->
+    	<item
+        android:id="@+id/context_remove"
+        android:title="@string/action_remove"
+        />
+    	
+    	<!-- MARK TASK AS DONE -->
+    	<item
+        android:id="@+id/context_done"
+        android:title="@string/action_done"
+        />
+    	
+    	<!-- MARK TASK AS UNDONE -->	
+    	<item
+        android:id="@+id/context_undone"
+        android:title="@string/action_undone"
+        />
+
+</menu>
+

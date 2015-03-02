@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- STRINGS -->
+
+<resources>
+
+    <!-- APP NAME -->
+    <string name="app_name">WTD</string>
+    
+    <!-- ACTION BAR AND CONTEXT MENU OPTIONS -->
+    <string name="action_new">New</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_done">Done</string>
+    <string name="action_undone">Undone</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_removeDone">Remove all done tasks</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About of</string>
+    
+    <!-- HEADER FOR TASK LIST -->
+	<string name="header">"d pri date       subject"</string>
+	
+	<!-- INPUT DIALOG FOR NEW AND EDIT -->
+	<string name="input_new">New task</string>
+	<string name="input_edit">Edit task</string>
+	<string name="input_priority">Priority:</string>
+	<string name="input_done">Done:</string>
+	<string name="input_task">Subject:</string>	
+	<string name="input_date">Date:</string>
+	<string name="input_date_chkbox">Undated</string>
+	<string name="input_ok">OK</string>
+	<string name="input_cancel">Cancel</string>
+	
+	<!-- PRIORITY VALUES FOR SPINNER -->
+    <string-array name="array_priority">
+        <item>High (A)</item>
+        <item>Medium (B)</item>
+        <item>Low (C)</item>
+        <item>None</item>
+    </string-array>
+	
+	<!-- ABOUT OF DIALOG -->
+	<string name="about_title">About of WTD</string>
+    <string name="about_text">What To Do\nv1.01 (02 Mar 2015)\n\n&#169; 2015 Miguel Garcia\nwww.floppysoftware.vacau.com\nmiguelvisgarcia@gmail.com</string>
+
+</resources>
